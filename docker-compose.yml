@@ -9,4 +9,4 @@ services:
     working_dir: /app
     environment:
       - IBM_QUANTUM_TOKEN=${IBM_QUANTUM_TOKEN}
-    command: sh -c "pip install --no-cache-dir -r requirements.txt && python main.py"
+    command: sh -c "pip install --no-cache-dir -r requirements.txt && python ingest_medmnist.py && python main.py"
