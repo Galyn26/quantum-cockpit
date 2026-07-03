@@ -15,7 +15,8 @@ services:
       sh -c "pip install -r requirements.txt &&
              python ingest_medmnist.py &&
              python main.py &&
-             python quantum_classifier.py"
+             python quantum_classifier.py &&
+             python quantum_hardware_runner.py"
 
 # Declare the persistent volume storage at the bottom of the file
 volumes:
