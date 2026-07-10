@@ -10,11 +10,7 @@ A containerized quantum computing sandbox and cloud-orchestration edge node engi
 
 ## Current Milestones Verified
 
-1.  **Instruction Set Abstraction:** Successfully pinned binary dependency frameworks (`numpy<2.4.0`) to run modern linear algebra pipelines inside Docker without host contamination.
-2.  **Entanglement Verification:** Executed a localized 2-qubit Bell State simulation tracking perfect `00` and `11` probability vector alignments.
-3.  **Active Cloud Link & Verification:** Successfully established an authenticated, secure connection over the internet, verifying real-time tracking of remote hardware instances.
-4.  **Physical QPU Workload Execution (Phase 1 Complete):** Ingested, normalized, and downscaled medical image tensor data arrays using **PneumoniaMNIST**. Successfully executed an expressive quantum feature map ansatz on physical hardware (`ibm_marrakesh`), pulling down a refined non-linear spatial global expectation value coordinate matrix of `[-0.22306591]`.
-
-## Next Execution Phases
-
-*   **Phase 2:** Integrate molecular property datasets using **QM7** to test quantum chemical atomization tracking models, mapping Coulomb matrices directly onto physical qubits to calculate ground-state electronic energy configurations.
+1. **Instruction Set Abstraction:** Successfully pinned binary dependency frameworks (`numpy<2.4.0`) to run modern linear algebra pipelines inside Docker without host contamination.
+2. **Entanglement Verification:** Executed a localized 2-qubit Bell State simulation tracking perfect `00` and `11` probability vector alignments.
+3. **Physical QPU Workload Execution (Phase 1 Complete):** Ingested and downscaled medical image tensor arrays using **PneumoniaMNIST** on `ibm_marrakesh`, pulling down a spatial expectation value matrix of `[-0.22306591]`.
+4. **Utility-Scale Deployment (Phase 2 Complete):** Authenticated secure cloud pipelines to execute high-dimensional workloads on IBM Utility-Scale Architecture (`ibm_fez`). Successfully mapped the **Breast Cancer Wisconsin Dataset** using Sampler Primitives and executed molecular regression using the **QM7 Dataset** via Estimator Primitives.
